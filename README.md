@@ -18,7 +18,8 @@ Area of Triangle = ½(b × h) where b is base and h is height.
 
 ##Steps of Solution, problem 3
     
-    For any positive integer ‘n’, the factorial of n is the product of all the values from 1 to n. In mathematics factorial of n is     represented by n!. Factorial of 0 is 1.
+    For any positive integer ‘n’, the factorial of n is the product of all the values from 1 to n.
+    In mathematics factorial of n is represented by n!. Factorial of 0 is 1.
              
               Approach 1: Iterative Method
                 Declare a variable with a value of the number whose factorial you have to find.

@@ -2,18 +2,21 @@
 TohaTanvir/mbc.tasks.official-assigned-tasks-etc
 
 ##Steps of Solution, problem 1
-                  Three sided polygon is known as Triangle. It has a base and an altitude(height).
-                  Area of Triangle = ½(b × h) where b is base and h is height.
-                      Algorithm
-                      1. Define base and height
-                      2. Apply in the formula.
-                      3. Print the Area.
+Three sided polygon is known as Triangle. It has a base and an altitude(height).
+Area of Triangle = ½(b × h) where b is base and h is height.
+
+                        Algorithm
+                          1. Define base and height
+                          2. Apply in the formula.
+                          3. Print the Area.
 
 ##Steps of Solution, problem 2
+                
                 Converting degrees to radians
                 radian = degree * (Pi / 180)
 
 ##Steps of Solution, problem 3
+    
     For any positive integer ‘n’, the factorial of n is the product of all the values from 1 to n. In mathematics factorial of n is     represented by n!. Factorial of 0 is 1.
               Approach 1: Iterative Method
                 Declare a variable with a value of the number whose factorial you have to find.
@@ -23,6 +26,7 @@ TohaTanvir/mbc.tasks.official-assigned-tasks-etc
                 Multiply ans by the value of i in each iteration.
                 Return the value of ans.
 or,
+              
               Approach 2: Recursive Method
                 Declare a variable with a value of the number whose factorial you have to find.
                 Declare a recursive function factorial taking the value as a parameter.
@@ -42,9 +46,9 @@ or
 
 
 ##Steps of Solution, problem 6
-  The rule for leap years in the Gregorian calendar is:
-  
-  Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years if they are exactly divisible by 400.
+The rule for leap years in the Gregorian calendar is:
+
+        Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years if they are exactly divisible by 400.
   
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/a90e6f8f-9b79-4ab9-b3c4-f726192eb3ec)
 

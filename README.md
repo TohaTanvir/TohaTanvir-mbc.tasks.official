@@ -52,12 +52,12 @@ or
 ##Steps of Solution, problem 7
   There are various methods to remove duplicates in the array. As like :
   
-  Using filter() Method
-  Using set() Method
-  Using reduce() Method
-  Using indexOf() Method
-  Using forEach() Method
-  Using Underscore.js _.uniq() Function
+      Using filter() Method
+      Using set() Method
+      Using reduce() Method
+      Using indexOf() Method
+      Using forEach() Method
+      Using Underscore.js _.uniq() Function
 
 ##Steps of Solution, problem 8
 

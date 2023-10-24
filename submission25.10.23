@@ -5,28 +5,71 @@ Problem 1: Write a function to calculate the area of a triangle.
 Solution: 1 Calculating the area of a triangle
 */
 
-var base = ("give a number");
-var height = ("give a number");
-var area = (0.5 * base * height);
-
-/* console.log(area); */
+                var base = ("give a number");
+                var height = ("give a number");
+                var area = (0.5 * base * height);
+                
+/* console.log(area);
 
 Problem 2: Write a function to convert degrees to radians.
 Solution: 2 Converting degrees to radians
 */
+              function degreeToRadians(degree) {
+                  return degree * (Math.PI / 180.0);
+              }
+              
+/* console.log( degreeToRadians(   give a degree ) );
 
 Problem 3: Create a function calculateFactorial that takes a number and returns its factorial.
 Solution: 3 Creating a function calculateFactorial that takes a number and returns its factorial. 
 */
+              let n = giveANumber; 
+              function factorial(n) {  
+                  if (n === 0) {  
+                      return 1;  
+                  }  
+                  else {  
+                      return n * factorial( n - 1 );  
+                  }  
+              }    
+/*  
+console.log(factorial(n));
+
 Problem 4: Create a function isPrime that takes a number as a parameter and returns true if it's a prime number, and false otherwise.
 Solution: 4 Creating a function isPrime that takes a number as a parameter and returns true if it's a prime number, and false otherwise.
 */
+              function test_prime(num) {
+                  if (num <= 1) {
+                    return false;
+                  }
+                  for (let i = 2; i <= Math.sqrt(num); i++) {
+                    if (num % i === 0) {
+                      return false;
+                    }
+                  }
+                  return true;
+                }
+/*
+console.log(test_prime(giveANumber));
+
 Problem 5: Create a function mergeArrays that takes two arrays as parameters and returns a new array that merges both arrays.
 Solution: Creating a function mergeArrays that takes two arrays as parameters and returns a new array that merges both arrays.
 */
+
+              var arr1 = ["Tanvir", "Abdullay"];
+              var arr2 = ["Toha", "Parameters"];
+              
+              arr1 = arr1.concat(arr2);
+/*              
+console.log(arr1);
+
 Problem 6: Create a function isLeapYear that takes a year as a parameter and returns "This is a leap year" if it's a leap year, and "Not Leap year" otherwise.
 Solution: 6 Creating a function isLeapYear that takes a year as a parameter and returns "This is a leap year" if it's a leap year, and "Not Leap year" otherwise.
 */
+
+
+
+
 Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
 Solution: 1 Calculating the area of a triangle
 */

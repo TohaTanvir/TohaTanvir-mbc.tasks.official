@@ -84,17 +84,59 @@ console.log(find(2017));
 Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
 Solution: 1 Calculating the area of a triangle
 */
-
+            let arr = ["tanvir", "abdullah", "toha", 
+                          "tanvir", "abdullah", "toha"]; 
+                  
+                  function removeDuplicates(arr) { 
+                      return arr.filter((item, index) => arr.indexOf(item) === index); 
+                  } 
+/*
+console.log(removeDuplicates(arr));
 
 Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
-Solution: 1 Calculating the area of a triangle
+Solution: 8 Creating a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius
 */
+                function celsiusToF(celsius) 
+                      {
+                        var cTemp = celsius;
+                        var celsiusToF = cTemp * 9 / 5 + 32;
+                        var message = cTemp+'\xB0C is ' + celsiusToF + ' \xB0F.';
+                          console.log(message);
+                      }
+                      
+                      function farenheitToC(fahrenheit) 
+                      {
+                        var fTemp = fahrenheit;
+                        var farenheitToC = (fTemp - 32) * 5 / 9;
+                        var message = fTemp+'\xB0F is ' + farenheitToC + '\xB0C.';
+                          console.log(message);
+                      } 
+/*                      
+celsiusToF(60);
+farenheitToC(45);
+
 Problem 9: Write a function to find the maximum of five numbers.
-Solution: 1 Calculating the area of a triangle
+Solution: 9 Writing a function to find the maximum of five numbers.
 */
+
+      const maxOfFiveNumber = [1, 30, 2, 5, 6];
+/*
+console.log(Math.max(...maxOfFiveNumber))
+
 Problem 10: Create a function called evenOdd() that takes a string as a parameter. Now you have to give the output based on the total number of characters in your String. The output will be 'even' or 'odd'. [ Input: ‘JavaScript’ Output: even, Input: ‘Hello’ Output: odd]
-Solution: 1 Calculating the area of a triangle
+Solution: 10 Creating a function called evenOdd() that takes a string as a parameter. Now you have to give the output based on the total number of characters in your String. The output will be 'even' or 'odd'. [ Input: ‘JavaScript’ Output: even, Input: ‘Hello’ Output: odd]
 */
+    const number = giveANumber;
+
+    if(number % 2 == 0) {
+ /*       console.log("The number is even.");
+*/
+     }
+    
+    else {
+ /*       console.log("The number is odd.");
+*/
+    }
 
 
 /*

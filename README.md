@@ -29,7 +29,7 @@ or,
                 The function returns 1 if the value is 0 else the return calls the function for value – 1.
                 After recursion is over the value returned is the factorial.
 
-Steps of Solution, problem 4
+##Steps of Solution, problem 4
 A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/5f3b0a7a-88c4-4ad9-a6f6-10f0330ed741)
@@ -58,7 +58,15 @@ or
 
 
 ##Steps of Solution, problem 7
-##Steps of Solution, problem 8
-##Steps of Solution, problem 9
+  There are various methods to remove duplicates in the array. As like :
+  
+  Using filter() Method
+  Using set() Method
+  Using reduce() Method
+  Using indexOf() Method
+  Using forEach() Method
+  Using Underscore.js _.uniq() Function
 
-##Steps of Solution, problem 10
+##Steps of Solution, problem 8
+![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/acefe002-ac5f-4385-aec1-ba9e3a52a91d)
+

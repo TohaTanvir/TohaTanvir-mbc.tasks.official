@@ -79,7 +79,7 @@ Solution: 6 Creating a function isLeapYear that takes a year as a parameter and 
 
             }
 /*              
-console.log(find(2017));
+console.log(find(giveAYear));
 
 Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
 Solution: 1 Calculating the area of a triangle
@@ -143,6 +143,28 @@ Solution: 10 Creating a function called evenOdd() that takes a string as a param
 => Answer any 4 questions.
 
 1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
+    
+      Key Differences Between if-else and switch:
+
+      The expression inside if statement decides whether to execute the statements inside if block or under else block. 
+      On the other hand, the expression inside a switch statement decides which case to execute.
+      
+      You can have multiple if statement for multiple choice of statements. 
+      In switch, you only have one expression for the multiple choices.
+      
+      If-else statement checks for equality as well as for logical expression. 
+      On the other hand, switch checks only for equality.
+      
+      The if statement evaluates integer, character, pointer or floating-point type or boolean type. 
+      On the other hand, switch statement evaluates only character or an integer datatype.
+      
+      Sequence of execution is like either statement under if block will execute or statements under else block statement will execute.       On the other hand, the expression in switch statement decide which case to execute and if you do not apply a break statement after each case it will execute till the end of the switch statement.
+      
+      If expression inside if turn outs to be false, statement inside else block will be executed. 
+      If expression inside switch statement turns out to be false then default statements is executed.
+      
+      It is difficult to edit if-else statements as it is tedious to trace where the correction is required. 
+      On the other hand, it is easy to edit switch statements as they are easy to trace.
 
 2. What is JavaScript, and what is its primary purpose in web development?
 

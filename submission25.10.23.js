@@ -1,5 +1,5 @@
 /*
-=> Solve these questions.
+=> Solution of Assignment_js.
 
 Problem 1: Write a function to calculate the area of a triangle.
 Solution: 1 Calculating the area of a triangle
@@ -140,7 +140,7 @@ Solution: 10 Creating a function called evenOdd() that takes a string as a param
 
 
 /*
-=> Answer any 4 questions.
+=> Answer any 5 questions.
 
 1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
     

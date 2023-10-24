@@ -1,7 +1,7 @@
 # TohaTanvir-mbc.tasks.official
 TohaTanvir/mbc.tasks.official-assigned-tasks-etc
 
-Steps of Solution, problem 1
+##Steps of Solution, problem 1
                   Three sided polygon is known as Triangle. It has a base and an altitude(height).
                   Area of Triangle = ½(b × h) where b is base and h is height.
                       Algorithm
@@ -9,11 +9,11 @@ Steps of Solution, problem 1
                       2. Apply in the formula.
                       3. Print the Area.
 
-Steps of Solution, problem 2
+##Steps of Solution, problem 2
                 Converting degrees to radians
                 radian = degree * (Pi / 180)
 
-Steps of Solution, problem 3
+##Steps of Solution, problem 3
     For any positive integer ‘n’, the factorial of n is the product of all the values from 1 to n. In mathematics factorial of n is     represented by n!. Factorial of 0 is 1.
               Approach 1: Iterative Method
                 Declare a variable with a value of the number whose factorial you have to find.
@@ -31,16 +31,17 @@ or,
 
 Steps of Solution, problem 4
 A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/5f3b0a7a-88c4-4ad9-a6f6-10f0330ed741)
+
 or
+
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/1acb5805-ddf0-44b3-be63-767276cfcfbc)
 
-
-
-Steps of Solution, problem 5
+##Steps of Solution, problem 5
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/a90e6f8f-9b79-4ab9-b3c4-f726192eb3ec)
 
-Steps of Solution, problem 6
+##Steps of Solution, problem 6
   The rule for leap years in the Gregorian calendar is:
   
   Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years if they are exactly divisible by 400.
@@ -56,8 +57,8 @@ Steps of Solution, problem 6
   So there are only two cases where the year is a leap year, namely (1) if it is divisible by 4 and not divisible by 100 and if (2) if it is divisible by 400. In all other cases the year is not a leap year.
 
 
-Steps of Solution, problem 7
-Steps of Solution, problem 8
-Steps of Solution, problem 9
+##Steps of Solution, problem 7
+##Steps of Solution, problem 8
+##Steps of Solution, problem 9
 
-Steps of Solution, problem 10
+##Steps of Solution, problem 10

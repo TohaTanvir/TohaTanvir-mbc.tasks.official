@@ -49,7 +49,9 @@ or
 ##Steps of Solution, problem 6
 The rule for leap years in the Gregorian calendar is:
 
-        Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years if they are exactly divisible by 400.
+        Every year that is exactly divisible by four is a leap year, 
+        except for years that are exactly divisible by 100, 
+        but these centurial years are leap years if they are exactly divisible by 400.
   
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/a90e6f8f-9b79-4ab9-b3c4-f726192eb3ec)
 

@@ -39,22 +39,14 @@ or
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/1acb5805-ddf0-44b3-be63-767276cfcfbc)
 
 ##Steps of Solution, problem 5
-![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/a90e6f8f-9b79-4ab9-b3c4-f726192eb3ec)
+
 
 ##Steps of Solution, problem 6
   The rule for leap years in the Gregorian calendar is:
   
   Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years if they are exactly divisible by 400.
   
-  So, for a particular year we can enumerate all the possible cases in the following decision tree:
-  
-  not divisible by 4 -> not a leap year
-  divisible by 4 ->
-  not divisible by 100 -> leap year
-  divisible by 100 ->
-  not divisible by 400 -> not a leap year
-  divisible by 400 -> leap year
-  So there are only two cases where the year is a leap year, namely (1) if it is divisible by 4 and not divisible by 100 and if (2) if it is divisible by 400. In all other cases the year is not a leap year.
+![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/a90e6f8f-9b79-4ab9-b3c4-f726192eb3ec)
 
 
 ##Steps of Solution, problem 7

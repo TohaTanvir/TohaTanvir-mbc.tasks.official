@@ -13,11 +13,13 @@ Area of Triangle = ½(b × h) where b is base and h is height.
 ##Steps of Solution, problem 2
                 
                 Converting degrees to radians
+                
                 radian = degree * (Pi / 180)
 
 ##Steps of Solution, problem 3
     
     For any positive integer ‘n’, the factorial of n is the product of all the values from 1 to n. In mathematics factorial of n is     represented by n!. Factorial of 0 is 1.
+             
               Approach 1: Iterative Method
                 Declare a variable with a value of the number whose factorial you have to find.
                 Declare a function factorial taking the value as a parameter.
@@ -41,8 +43,6 @@ A prime number (or a prime) is a natural number greater than 1 that has no posit
 or
 
 ![image](https://github.com/TohaTanvir/TohaTanvir-mbc.tasks.official/assets/87535510/1acb5805-ddf0-44b3-be63-767276cfcfbc)
-
-##Steps of Solution, problem 5
 
 
 ##Steps of Solution, problem 6

@@ -15,7 +15,7 @@ Problem 2: Write a function to convert degrees to radians.
 Solution: 2 Converting degrees to radians
 */
               function degreeToRadians(degree) {
-                  return degree * (Math.PI / 180.0);
+              return degree * (Math.PI / 180.0);
               }
               
 /* console.log( degreeToRadians(   give a degree ) );
@@ -66,13 +66,26 @@ console.log(arr1);
 Problem 6: Create a function isLeapYear that takes a year as a parameter and returns "This is a leap year" if it's a leap year, and "Not Leap year" otherwise.
 Solution: 6 Creating a function isLeapYear that takes a year as a parameter and returns "This is a leap year" if it's a leap year, and "Not Leap year" otherwise.
 */
+              function find(year)
+              {
+              if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0))
+                {
+                return ("It is a leap year");
+                }
+                else
+                {
+                    return ("It is not a leap year");
+                }
 
-
-
+            }
+/*              
+console.log(find(2017));
 
 Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
 Solution: 1 Calculating the area of a triangle
 */
+
+
 Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
 Solution: 1 Calculating the area of a triangle
 */

@@ -168,13 +168,89 @@ Solution: 10 Creating a function called evenOdd() that takes a string as a param
 
 2. What is JavaScript, and what is its primary purpose in web development?
 
+      JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. 
+      It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.
+      The use of JavaScript can be both on the client-side and server-side.
+      While HTML and CSS languages are used to give structure and style to web pages, JavaScript is used to add interactive elements that engage users. 
+      Without JavaScript, 90% of Internet webpages would be static.
+
+      Here are some examples of what JavaScript can be used for in web development:
+      
+      a) Form validation: JavaScript can be used to validate user input in web forms, ensuring that required fields are filled in and that the data entered is in the correct format.
+      b) Dynamic content: JavaScript can be used to dynamically update the content of a web page based on user interaction, such as clicking a button or entering text into a form.
+      c) Interactive effects: JavaScript can be used to create interactive effects, such as animations, pop-ups, and drag-and-drop functionality.
+      d) Data visualization: JavaScript can be used to display data, such as charts and graphs, in a visually appealing way.
+      e) Web applications: JavaScript can be used to create full-fledged web applications, such as online shopping carts, social media apps, and project management tools.
+
 3. Explain the difference between var, let, and const when declaring variables in JavaScript.
 
+      var declarations are globally scoped or function scoped while let and const are block scoped.
+            var variables can be updated and re-declared within its scope; 
+            let variables can be updated but not re-declared;
+            const variables can neither be updated nor re-declared.
+            
+      They are all hoisted to the top of their scope. 
+      But while var variables are initialized with undefined,
+      let and const variables are not initialized.
+      
+      While var and let can be declared without being initialized,
+      const must be initialized during declaration.
+
 4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
+              
+              The scope of a variable or function determines what code has access to it.
+          Variables that are created inside a function are local variables, 
+          and local variables  can only be referred to by the code within the function.
+          Variables created outside of functions are global variables,
+          and the code in all functions has access to all global variables.
+          If you forget to code the var keyword in a variable declaration, 
+          the JavaScript engine assumes that the variable is global. This can cause debugging problems.
+          
+    “Scope” is just a technical term for the parts of your code that have access to a variable.
+    Scope determines the accessibility (visibility) of variables.
+
+          JavaScript has 3 types of scope:
+          
+          a) Block scope
+          b) Function scope
+          c) Global scope
+
+          In general, it’s better to pass local variables from one function to another as parameters than it is to use global variables.
+          That will make your code easier to understand with less chance of errors.
+          
+          It may seem easier to use global variables than to pass data to a function and return data from it,
+          global variables often create problems. 
+          That’s because any function can modify a global variable, 
+          and it’s all too easy to misspell a variable name or modify the wrong variable, 
+          especially in large applications. 
+          
+          That, in turn, can create debugging problems.
+          In contrast, the use of local variables reduces the likelihood of naming conflicts. 
+          For instance, two different functions can use the same names for local variables without causing conflicts. 
+          That of course, means fewer errors and debugging problems. 
+          With just a few exceptions, then, all of the code in your applications should be in functions so all of the variables are local.
+          If you misspell the name of a variable that you’ve already declared, 
+          it will be treated as a new global variable. 
+          With this in mind, be sure to include the keyword when you declare new variables and always declare a variable before you refer to it in your code.
+          Note: Use local variables whenever possible. Always use the var keyword to declare a new variable before the variable is referred to by other statements.
+
 
 5. What is the difference between "null" and "undefined" in JavaScript?
 
-
-
+Undefined:
+          The undefined property indicates that a variable has not been assigned a value, or not declared at all.
+          Undefined means a variable has been declared but has yet not been assigned a value.
+          It is an ECMAScript1 (ES1) feature.
+          Its supported browsers are -:
+          Chrome , Microsoft Edge , Internet Explorer , Firefox , Safari , Opera Mini
+          It is a global property.
+Null:
+      Null is an assignment value. It can be assigned to a variable as a representation of no value. 
+      It is a Primitive value in Javascript.
+      Its supported browsers are -:
+      Chrome , Microsoft Edge , Internet Explorer , Firefox , Safari , Opera Mini
+      Its syntax is -: null
+      The null value represents the intentional absence of any object value. 
+      It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
 
 */

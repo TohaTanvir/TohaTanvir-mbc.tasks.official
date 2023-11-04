@@ -11,6 +11,7 @@ Solution: 1 Calculating the area of a triangle
                 
 /* console.log(area);
 
+
 Problem 2: Write a function to convert degrees to radians.
 Solution: 2 Converting degrees to radians
 */
